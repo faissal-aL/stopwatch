@@ -1,0 +1,71 @@
+*{
+    text-align: center;
+    background: #bfb5b2;
+} 
+   
+h1{
+    margin-top: 100px;
+    font-size: 4vw;
+    text-shadow: #98908e -5px 5px 4px;
+}
+#chrono{
+    font-size: 4vw;
+}
+#buttonsdiv{
+    margin-top: 50px;
+}
+.button{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #aba2a0;
+    border-radius: 10px;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.button:hover{
+   /*  height:50px ; */
+    cursor: pointer;
+    background-color: #888180;
+    transform: scale(1.15);
+    transition: 0.5s;
+    border:solid #726c6a;
+}
+
+#lestours{
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+p{
+    font-weight: normal;
+    text-align: left;
+}
+
+@media screen and (width < 1000px) {
+    
+h1{
+    margin-top: 100px;
+    font-size: 7vw;
+}
+#chrono{
+    font-size: 7vw;
+}
+#buttonsdiv{
+    margin-top: 50px;
+}
+.button{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#lestours{
+    font-size: 3vw;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+}
